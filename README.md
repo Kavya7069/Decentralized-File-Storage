@@ -1,57 +1,40 @@
-Decentralized File Storage
+# Decentralized File Storage and Secure File Management
 
-Overview:
-  This project is a Decentralized File Storage and Secure Data Management System that leverages blockchain technology to provide a secure, reliable, and efficient way to store and manage files. It ensures data integrity, security, and user privacy by distributing files across a decentralized network.
 
-Key Features:
-  Distributed Storage: Files are stored across a decentralized network, ensuring redundancy and data availability.
-  Enhanced Security: Blockchain’s inherent security features protect data from breaches and unauthorized access.
-  Immutable Records: The immutability of the blockchain ensures the integrity and authenticity of stored files.
-  User Control: Users have full control over their data, enhancing privacy and ownership.
-Real-World Applications:
-  Personal Cloud Storage: Secure and private file storage for individuals.
-  Document Verification: Tamper-proof verification and timestamping of important documents.
-  Supply Chain Management: Transparent tracking of goods throughout the supply chain.
-  Healthcare: Secure transfer and storage of sensitive patient data.
-  Legal and Financial Services: Confidential handling of sensitive documents.
-Getting Started
-Prerequisites
-Python 3.7 or higher
-Flask
-requests
-cryptography
+This project is a Decentralized File Storage and Secure Data Management System that leverages blockchain technology to provide a secure, reliable, and efficient way to store and manage files. It ensures data integrity, security, and user privacy by distributing files across a decentralized network.
 
-Installation:
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/Kavya7069/Decentralized-File-Storage
-cd decentralized-file-storage
 
-Install the required packages:
-bash
-Copy code
-pip install -r requirements.txt
-Usage
+# Key Features
 
-Start the Flask server:
-bash
-Copy code
-python server.py
-python run_app.py
+ - Distributed Storage: Files are stored across a decentralized network, ensuring redundancy and data availability.
+ -  Enhanced Security: Blockchain’s inherent security features protect data from breaches and unauthorized access.
+ - Immutable Records: The immutability of the blockchain ensures the integrity and authenticity of stored files.
+ -  User Control: Users have full control over their data, enhancing privacy and ownership.
 
-Open your web browser and navigate to:
-plaintext
-Copy code
-http://localhost:9000
 
-How It Works:
-File Upload: Users upload files through the web interface.
-File Encryption: The uploaded files are encrypted using symmetric encryption before being stored.
-Distributed Storage: Encrypted files are stored across a decentralized network.
-Blockchain Integration: Metadata and access controls are managed using blockchain technology.
+## Getting Started
+**Installation:**
 
-Future Enhancements
-Integration with IPFS (InterPlanetary File System) for more efficient distributed storage.
-Implementing user authentication and access controls using blockchain-based identity management.
-Adding support for more file types and larger file sizes.
+ - Install required libraries using `pip install -r requirements.txt`
+ - Open one terminal and start server/peer: `python server.py`
+ - Open another terminal and start a client: `python run_app.py`
+ - Copy the link from the client terminal, `http://localhost:9000`, paste it in any browser
+ 
+<img width="947" alt="Screenshot 2024-07-28 203408" src="https://github.com/user-attachments/assets/dccb1f09-a613-4649-b6c1-efdbdbbd4954">
+<img width="959" alt="Screenshot 2024-07-28 203517" src="https://github.com/user-attachments/assets/79c1fb44-601d-4650-8c98-950e2b3b8a0f">
+<img width="837" alt="Screenshot 2024-07-28 204033" src="https://github.com/user-attachments/assets/9e62f5c6-25f5-498d-b148-4d2f15ce16bc">
+
+ 
+  
+## Real-World Applications:
+ -  Personal Cloud Storage: Secure and private file storage for individuals.
+ - Document Verification: Tamper-proof verification and timestamping of important documents.
+ - Supply Chain Management: Transparent tracking of goods throughout the supply chain.
+ - Healthcare: Secure transfer and storage of sensitive patient data.
+ - Legal and Financial Services: Confidential handling of sensitive documents.
+ - 
+## Future Enhancements
+
+ - Implementing user authentication and access controls using blockchain-based identity management.
+ - Adding support for more file types and larger file sizes.
+ - Integration with IPFS (InterPlanetary File System) for more efficient distributed storage.
