@@ -19,6 +19,7 @@ This project is a Decentralized File Storage and Secure Data Management System t
  - Open one terminal and start server/peer: `python server.py`
  - Open another terminal and start a client: `python run_app.py`
  - Copy the link from the client terminal, `http://localhost:9000`, paste it in any browser
+   
  
 <img width="947" alt="Screenshot 2024-07-28 203408" src="https://github.com/user-attachments/assets/dccb1f09-a613-4649-b6c1-efdbdbbd4954">
 <img width="959" alt="Screenshot 2024-07-28 203517" src="https://github.com/user-attachments/assets/79c1fb44-601d-4650-8c98-950e2b3b8a0f">
@@ -26,7 +27,7 @@ This project is a Decentralized File Storage and Secure Data Management System t
 
  
   
-## Real-World Applications:
+## Real-World Applications
  -  Personal Cloud Storage: Secure and private file storage for individuals.
  - Document Verification: Tamper-proof verification and timestamping of important documents.
  - Supply Chain Management: Transparent tracking of goods throughout the supply chain.
